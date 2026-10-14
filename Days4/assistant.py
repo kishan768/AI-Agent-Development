@@ -53,12 +53,9 @@ input_choice=input("\n Enter your choice:")
 print("\nAI: Hello! I'm ready to help you.\n")
 print("\nType 'quit' anytime to exit.\n")
 
-
-
 messages=[{
     "role":"system",
     "content":roles.get(input_choice,"you are a helpul Ai Assistant")
-    
 }]
 
 
